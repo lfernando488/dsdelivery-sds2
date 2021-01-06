@@ -91,5 +91,9 @@ public class OrderDTO implements Serializable{
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
+
+	public List<ProductDTO> getProducts() {
+		return products;
+	}
 	
 }
